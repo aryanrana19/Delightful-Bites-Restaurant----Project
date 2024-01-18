@@ -7,9 +7,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header{
-    /* background-color: blanchedalmond; */
-    
+.landing-page{
+    background-image: url(./assets/vegetables-set-left-black-slate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 nav.menu{
@@ -17,13 +19,18 @@ nav.menu{
     justify-content: space-between;
     padding: 25px 15px;
     align-items: center;
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+    /* background-color: rgba(0,0,0,0.7); */
 }
 
 .logo a{
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
     font-size: 36px;
-    color: #000;
+    color: #fff;
+    padding-left: 50px;
 }
 
 .menu-btn a{
@@ -31,4 +38,5 @@ nav.menu{
     color: black;
     padding: 20px;
     font-size: 16px;
+    color: #fff;
 }
