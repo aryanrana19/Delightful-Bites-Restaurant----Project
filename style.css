@@ -22,7 +22,8 @@ nav.menu{
     /* position: relative; */
     position: sticky;
     top: 0;
-    /* background-color: rgba(0,0,0,0.7); */
+    background-color: rgba(0,0,0,0.7);
+    height: 3vh;
 }
 
 .logo a{
@@ -36,7 +37,28 @@ nav.menu{
 .menu-btn a{
     text-decoration: none;
     color: black;
-    padding: 20px;
-    font-size: 16px;
+    padding: 0px 15px;
+    font-size: 18px;
     color: #fff;
+}
+
+
+.landing-page-content h1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 40%;
+    left: 10%;
+}
+
+.landing-page-content h4{
+    color: #fff;
+    font-size: 38px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 50%;
+    left: 16%;
 }
