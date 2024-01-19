@@ -27,7 +27,7 @@ nav.menu{
     top: 0;
     background-color: rgba(0,0,0,0.7);
     height: 3vh;
-    
+    backdrop-filter: blur(10px);
 }
 
 .logo a{
@@ -120,7 +120,7 @@ nav.menu{
 .story-img img:hover{
     transform: translateY(-20px);
     cursor: pointer;
-    box-shadow: 0px 20px 20px rgb(93, 93, 93);
+    box-shadow: 20px 20px 20px rgb(93, 93, 93);
 }
 
 .signature-recipes{
@@ -215,7 +215,7 @@ nav.menu{
     margin-top: 10px;
     margin-bottom: 0px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(255, 183, 76);
+    color: #ffb74c;
 }
 
 .grid-child p{
@@ -246,5 +246,61 @@ nav.menu{
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.reservations{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.img-container img{
+    width: 700px;
+    border-radius: 15px;
+}
+
+.img-container img:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: -20px 20px 10px rgb(40, 40, 40);
+    transition: ease-in-out 0.3s;
+}
+
+.reservation-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reservation-title{
+    width: 40%;
+    text-align: center;
+}
+
+.reservation-title h1{
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    margin: 0px auto;
+}
+
+.reservation-title h3{
+    margin: 10px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.reservation-title h4{
+    font-size: 100px;
+    margin-top: -70px;
+    margin-bottom: 0;
+    color: #ffb74c;
+    height: fit-content;
+}
+
+.reservation-title p{
+    font-weight: bold;
+    font-size: 18px;
 }
 
