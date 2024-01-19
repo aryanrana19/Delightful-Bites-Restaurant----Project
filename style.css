@@ -88,15 +88,18 @@ nav.menu{
 .our-story h3{
     margin: 0;
     font-size: 30px;
+    color: rgb(255, 183, 76);
 }
 
 .our-story h4{
-    margin: 0;
+    margin: 0px;
     font-size: 50px;
+    color: rgb(255, 183, 76);
 }
 
 .our-story p{
     font-size: 18px;
+    /* margin-top: 0; */
 }
 
 .story-content{
