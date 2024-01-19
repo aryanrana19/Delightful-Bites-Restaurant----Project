@@ -42,6 +42,11 @@ nav.menu{
     color: #fff;
 }
 
+.menu-btn a:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+    transition: ease-in 0.3s;
+}
 
 .landing-page-content h1{
     color: #fff;
@@ -56,9 +61,58 @@ nav.menu{
 
 .landing-page-content h4{
     color: #fff;
-    font-size: 38px;
+    font-size: 25px;
     font-family: 'Dancing Script', cursive;
     position: absolute;
-    top: 50%;
-    left: 16%;
+    top: 53%;
+    left: 17%;
+    /* text-transform: uppercase; */
 }
+
+.our-story{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.our-story h1{
+    margin-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+.our-story h3{
+    margin: 0;
+    font-size: 30px;
+}
+
+.our-story h4{
+    margin: 0;
+    font-size: 50px;
+}
+
+.our-story p{
+    font-size: 18px;
+}
+
+.story-content{
+    width: 40%;
+}
+
+.story-img img{
+    width: 500px;
+    border-radius: 15px;
+    
+    transition: ease-in-out 0.3s;
+}
+
+.story-img img:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+    box-shadow: 0px 20px 20px rgb(93, 93, 93);
+}
+
