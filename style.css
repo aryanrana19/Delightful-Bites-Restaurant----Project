@@ -528,7 +528,15 @@ nav.menu{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.menu-div{
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    align-items: base;
+    justify-content: center;
 }
 
 .nav-menu a{
@@ -540,7 +548,7 @@ nav.menu{
 
 .about-content{
     margin: 0px 100px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .contact-heading h1{
