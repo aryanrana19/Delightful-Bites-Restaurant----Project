@@ -450,7 +450,7 @@ nav.menu{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 100px;
+        gap: 50px;
         text-align: center;
         /* margin-bottom: 0; */
     }
@@ -485,7 +485,8 @@ nav.menu{
     }
     
     .story-img img{
-        width: 600px;
+        padding: 0;
+        width: 400px;
         border-radius: 15px;
         transition: ease-in-out 0.3s;
     }
@@ -499,133 +500,31 @@ nav.menu{
 
 }
 
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* ABOUT PAGE CSS */
-
-.about-heading{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* MEDIA QUERY FOR MOBILE PHONE */
+@media only screen and (max-width: 425px){
+    body{
+        overflow: hidden;
+    }
+    .landing-page-content h1{
+        color: #fff;
+        font-family: 'Dancing Script', cursive;
+        font-size: 4.5rem;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 40%;
+        left: 90%;
+    }
+    
+    .landing-page-content h4{
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: 'Dancing Script', cursive;
+        position: absolute;
+        top: 53%;
+        left: 96%;
+        /* text-transform: uppercase; */
+    }
 }
 
-.about-heading h1{
-    font-size: 42px;
-}
-
-.about-heading h3{
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-/* .vision-box{
-    display: flex;
-    padding: 50px;
-    justify-content: space-around;
-}
-
-.vision-text{
-    width: 40%;
-}
-
-.vision-text h3{
-    font-size: 42px;
-    margin-bottom: 0;
-}
-
-.vision-text p{
-    font-size: 18px;
-}
-
-.vision-img img{
-    width: 600px;
-}
-
-.approach-box{
-    display: flex;
-    padding: 50px;
-    justify-content: space-around;
-}
-
-.approach-img img{
-    width: 600px;
-} */
-
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* CONTACT PAGE CSS */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 20% 75% 5%;
-    /* grid-gap: 10px; */
-}
-  
-.nav-container{
-    background-color: #f5b32f;
-    height: 100vh;
-}
-
-.about-contact{
-    background-color: #d4d4d4;
-    height: 100vh;
-}
-
-.nav-icon-container{
-    background-color: #e2e2e2;
-    /* border: 1px solid black; */
-    height: 100vh;
-}
-
-.nav-img img{
-    width: 100%;
-}
-
-.nav-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.menu-div{
-    width: 100%;
-    /* text-align: center; */
-    display: flex;
-    align-items: base;
-    justify-content: center;
-}
-
-.nav-menu a{
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
-    /* margin: 20px 0px; */
-}
-
-.about-content{
-    margin: 0px 100px;
-    /* height: 100vh; */
-}
-
-.contact-heading h1{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    margin: 50px 0px;
-    padding: 20px;
-    border: 1px solid black;
-}
-
-.nav-icon-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    justify-content: space-evenly;
-}
-
-.nav-icon-menu i{
-    color: #1a1a1a;
-    font-size: 20px;
-}
