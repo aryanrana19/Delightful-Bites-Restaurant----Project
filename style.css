@@ -389,7 +389,7 @@ nav.menu{
 
 /* MEDIA QUERIES FOR TABLET SCREEN */
 
-@media only screen and (max-width: 788px){
+@media only screen and (max-width: 768px){
     body{
         margin: 0;
         padding: 0;
@@ -428,18 +428,75 @@ nav.menu{
         font-family: 'Dancing Script', cursive;
         width: 100%;
         top: 30%;
+        left: 40%;
         
     }
     
     .landing-page-content h4{
         color: #fff;
-        font-size: 25px;
+        font-size: 35px;
         font-family: 'Dancing Script', cursive;
         position: absolute;
-        top: 53%;
-        left: 17%;
+        top: 47%;
+        left: 45%;
+        width: 100%;
         /* text-transform: uppercase; */
     }
+
+    .our-story{
+        height: 100vh;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        text-align: center;
+        /* margin-bottom: 0; */
+    }
+    
+    .our-story h1{
+        margin-bottom: 5px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3rem;
+    }
+    
+    .our-story h3{
+        margin: 0;
+        font-size: 1.5rem;
+        color: rgb(255, 183, 76);
+        margin: 0;
+    }
+    
+    .our-story h4{
+        margin: 0px;
+        font-size: 2rem;
+        color: rgb(255, 183, 76);
+        margin: 0;
+    }
+    
+    .our-story p{
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .story-content{
+        width: 40%;
+    }
+    
+    .story-img img{
+        width: 600px;
+        border-radius: 15px;
+        transition: ease-in-out 0.3s;
+    }
+    
+    .story-img img:hover{
+        transform: translateY(-20px);
+        cursor: pointer;
+        /* box-shadow: 20px 20px 20px rgb(93, 93, 93); */
+        box-shadow: 20px 20px 10px rgb(40, 40, 40);
+    }
+
 }
 
 
